@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dorian Tonnis - Jeu de la vie</title>
+
+		<link rel="icon" type="image/x-icon" href="../../assets/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<script src="js/index.js" defer></script>
+		<script src="js/Game.js" defer></script>
+	</head>
+
+	<body>
+		<main>
+			<section>
+				<canvas height="1000" width="1000"></canvas>
+			
+				<p>0</p>
+				<div>
+					<!-- <input id="size" title="Taille : 100" type="range" min="10" max="200" value="100" step="10"> -->
+					<div>
+						<label for="import" title="Importer"><img src="../../assets/icon/folder.svg" alt="bouton d\'importation"></label>
+						<input type="file" id="import" accept="text/json">
+						<button id="save" title="Enregistrer"><img src="../../assets/icon/save.svg" alt="bouton d\'enregistrement"></button>
+						<button id="export" title="Exporter"><img src="../../assets/icon/image.svg" alt="bouton d\'exportation en image"></button>
+					</div>
+					<div>
+						<button id="play" title="Lecture"><img src="../../assets/icon/play.svg" alt="bouton de lecture/pause"></button>
+						<button id="step" title="Génération suivante"><img src="../../assets/icon/skip-forward.svg" alt="bouton de lecture d\'une génération"></button>
+					</div>
+					<div>
+						<button id="randomize" title="Mélanger"><img src="../../assets/icon/shuffle.svg" alt="bouton de génération aléatoire"></button>
+						<button id="clear" titlte="Vider"><img src="../../assets/icon/trash.svg" alt="bouton de réinitialisation"></button>
+					</div>
+					<!-- <input id="speed" title="Vitesse : 10" type="range" min="0" max="100" value="10" step="10"> -->
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
