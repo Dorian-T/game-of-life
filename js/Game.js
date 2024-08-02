@@ -118,9 +118,6 @@ class Game {
 			this.generation = 0;
 			this.draw();
 		});
-
-
-// Functions
 	}
 
 
